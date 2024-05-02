@@ -4,6 +4,7 @@
 \usepackage{lipsum}
 \input{Boostan-UserManual}
 \usepackage{graphicx}
+\usepackage{tabularx}
 
 \input{Chapters/BWords}
 \input{Chapters/abbre}
@@ -13,7 +14,7 @@
 \type{
  درس آشنایی با شبکه های تلفن همراه }
 \author{غزل عربعلی - 97521396، بهاره کاوسی نژاد - 99431217}
-\logofile{Pic/HW}
+\logofile{Pic/IUST}
 
 
 \begin{document}
@@ -238,12 +239,272 @@
  را توسط
  \lr{adb} 
  بگیرید و تحلیل کنید.
-\begin{enumerate}
+\begin{itemize}
 	\item 
 	 \lr{Data ON/OFF}
 	 (خاموش و روشن کردن اینترنت)
-\end{enumerate}
+\end{itemize}
 \subsection*{پاسخ}
+برای بررسی وصل بودن تلفن همراه در 
+\lr{adb}
+دستور لیست دستگاه های
+\lr{adb}
+را اجرا می کنیم. بدین منظور باید پس از اتصال دستگاه با 
+\lr{USB}
+به کامپیوتر، باید تنظیمات 
+\lr{Developer mode}
+را روی تلفن همراه فعال کرده و 
+\lr{check box}
+های 
+\lr{stay awake}
+و 
+\lr{USB debugging}
+را فعال کنیم. سپس دستورات زیر را در ترمینال اجرا کنیم:
+\begin{latin}
+	\lstinputlisting[language=Python]{Codes/DeverloperCommands.txt}
+	\label{code:DeverloperCommands}
+\end{latin}
+پس از اجرای دستور آخر دستگاه های متصل به کامپیوتر مشاهده می شوند و کد آن ها را نیز می توان دید.
+اکنون با استفاده از کد زیر 
+\lr{log}
+ها را در یک فایل 
+\lr{text}
+ذخیره می کنیم:
+\begin{latin}
+	\lstinputlisting[language=Java]{Codes/LogPrinter.java}
+	\label{code:LogPrinter}
+\end{latin}
+
+در ابتدا به توضیح مفاهیم کلیدی مشاهده شده در 
+\lr{log}
+ها می پردازیم:
+\begin{itemize}
+\item
+\textbf{\lr{APN} 
+یا
+\lr{Access Point Name}
+:}
+نام نقطه دسترسی که به طور خاص برای اتصال به یک نوع سرویس شبکه (مانند اینترنت) پیکربندی شده است.
+\item
+\textbf{\lr{APN Type}
+:}
+ نوع 
+ \lr{APN}
+ که می تواند "
+ \lr{default}
+ " برای اتصال به اینترنت عمومی یا "
+ \lr{mms}
+ " برای ارسال و دریافت پیام های چندرسانه ای باشد.
+\item
+\textbf{\lr{State}
+:}
+ وضعیت
+  \lr{APN}
+  ، که می تواند "
+  \lr{DISCONNECTED}
+  "، "
+  \lr{CONNECTING}
+  "، "
+  \lr{CONNECTED}
+  " یا "
+  \lr{IDLE}
+  " باشد.
+\item
+\textbf{\lr{Reason}
+: }
+دلیل تغییر وضعیت 
+\lr{APN}
+، که می تواند "
+\lr{dataEnabled}
+"، "
+\lr{connected}
+"، "
+\lr{specificDisabled}
+" یا "
+\lr{other}
+" باشد.
+
+\end{itemize}
+در تلفن همراه خود ابتدا 
+\lr{Data}
+در حالت خاموش قرار دارد. 
+\lr{log}
+برای این حالت به شکل زیر است:
+\begin{latin}
+	\lstinputlisting[language=Python]{Codes/state1.txt}
+	\label{code:state1}
+\end{latin}
+\textbf{تجزیه و تحلیل:}
+\begin{itemize}
+	\item
+	\textbf{رویداد
+	\lr{APN}
+	: }
+	 نوع "
+	 \lr{mms}
+	 " به حالت "
+	 \lr{DISCONNECTED}
+	 " تغییر وضعیت می دهد.
+	\item
+	\textbf{دلیل
+	\lr{dataEnabled}
+	:}
+	 نشان می دهد که اتصال داده به طور کلی توسط کاربر یا سیستم غیرفعال شده است.
+	 \item
+	\textbf{نتیجه:}
+	 اینترنت برای ارسال و دریافت پیام های چندرسانه ای در این لحظه غیرفعال است.
+\end{itemize}
+
+\lr{Data}
+را در تلفن همراه خود روشن می کنیم و پس از گذشت چند ثانیه آن را خاموش می کنیم. 
+\lr{log}
+های بدست آمده در هر مرحله به صورت زیر می باشند:
+\begin{latin}
+	\lstinputlisting[language=Python]{Codes/state2.txt}
+	\label{code:state2}
+\end{latin}
+\textbf{تجزیه و تحلیل:}
+\begin{itemize}
+	\item
+	\textbf{رویداد
+		\lr{APN}
+		: }
+	نوع "
+	\lr{default}
+	" به حالت "
+	\lr{CONNECTED}
+	" تغییر وضعیت می دهد.
+	\item
+	\textbf{دلیل
+		\lr{connected}
+		:}
+	نشان می دهد که اتصال به شبکه تلفن همراه برقرار شده و
+	 \lr{APN}
+	 "
+	 \lr{default}
+	" برای ارائه دسترسی به اینترنت انتخاب شده است.
+	\item
+	\textbf{نتیجه:}
+	اینترنت برای مرور وب، استفاده از برنامه ها و سایر فعالیت های آنلاین در این لحظه فعال است.
+\end{itemize}
+\begin{latin}
+	\lstinputlisting[language=Python]{Codes/state3.txt}
+	\label{code:state3}
+\end{latin}
+\textbf{تجزیه و تحلیل:}
+\begin{itemize}
+	\item
+	\textbf{رویداد
+		\lr{APN}
+		: }
+	نوع "
+	\lr{default}
+	" به حالت "
+	\lr{DISCONNECTED}
+	" تغییر وضعیت می دهد.
+	\item
+	\textbf{دلیل
+		\lr{specificDisabled}
+		:}
+	نشان می دهد که اتصال به 
+	\lr{APN}
+	 "
+	 \lr{default}
+	 "
+	 به طور خاص توسط کاربر یا سیستم غیرفعال شده است، در حالی که اتصال داده به طور کلی هنوز فعال است.
+	\item
+	\textbf{نتیجه:}
+	اینترنت برای مرور وب، استفاده از برنامه ها و سایر فعالیت های آنلاین در این لحظه غیرفعال است، اما امکان ارسال و دریافت پیام های چندرسانه ای (در صورت پیکربندی 
+	\lr{APN}
+	 "
+	 \lr{mms}
+	" جداگانه) وجود دارد.
+\end{itemize}
+\begin{latin}
+	\lstinputlisting[language=Python]{Codes/state4.txt}
+	\label{code:state4}
+\end{latin}
+\textbf{تجزیه و تحلیل:}
+\begin{itemize}
+	\item
+	\textbf{رویداد
+		\lr{APN}
+		: }
+	نوع "
+	\lr{mms}
+	" به حالت "
+	\lr{DISCONNECTED}
+	" تغییر وضعیت می دهد.
+	\item
+	\textbf{دلیل
+		\lr{specificDisabled}
+		:}
+	مشابه رویداد 3، نشان می دهد که اتصال به 
+	\lr{APN}
+	 "
+	 \lr{mms}
+	 " به طور خاص غیرفعال شده است.
+	\item
+	\textbf{نتیجه:}
+	ارسال و دریافت پیام های چندرسانه ای در این لحظه غیرفعال است.
+\end{itemize}
+حالت های مختلف در جدول
+\ref{tab:ril-event-log}
+به طور خلاصه ذکر شده اند.
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\textbf{زمان} & \textbf{Reason} & \textbf{رویداد} \\
+		\hline
+		\lr{13:46:57.611}
+		&
+		\lr{dataEnabled}
+		&
+		اینترنت خاموش شد
+		\\
+		\hline
+		\lr{13:46:57.752}
+		&
+		\lr{connected}
+		&
+		اینترنت روشن شد
+		 \\
+		\hline
+		\lr{13:47:03.048}
+		&
+		\lr{specificDisabled}
+		&
+		اینترنت خاموش شد
+		 \\
+		\hline
+	\end{tabular}
+	\caption{\lr{RIL Event Log}}
+	\label{tab:ril-event-log}
+\end{table}
+
+
+\textbf{نتیجه گیری:}
+\begin{itemize}
+	\item 
+	بین
+	\lr{13:46:57.752} 
+	و
+	\lr{13:47:03.048} 
+	اینترنت برای مرور وب، استفاده از برنامه ها و سایر فعالیت های آنلاین فعال بود.
+	\item 
+	در 
+	\lr{13:47:03.048}
+	،
+	 هر دو
+	  \lr{APN} 
+	 "
+	 \lr{default}
+	 " و "
+	 \lr{mms}
+	 " به طور خاص غیرفعال شدند، به این معنی که هم اینترنت و هم ارسال و دریافت پیام های چندرسانه ای در آن لحظه غیرفعال بودند.
+\end{itemize}
+
 \section* {مراجع}
 \begin{itemize}
 	\item 
@@ -257,6 +518,11 @@
 	\item 
 	\href{https://stackoverflow.com/questions/21170392/my-android-device-does-not-appear-in-the-list-of-adb-devices} {نمایش لیست دستگاه های 
 	\lr{adb}
+	}
+	
+	\item 
+	\href{https://en-gb.support.motorola.com/app/answers/detail/a_id/159678/~/developer-options} {روشن کردن 
+	\lr{Developer Mode}
 	}
 	
 \end{itemize}

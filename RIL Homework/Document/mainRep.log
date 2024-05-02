@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.27)  2 MAY 2024 13:35
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.27)  2 MAY 2024 15:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1887,35 +1887,45 @@ File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.te
 x
 File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))))) (./Chapters/BWords.tex) (./Chapters/abbre.tex) (./mainRep.aux)
+))))) (c:/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen339
+\TX@old@table=\dimen340
+\TX@old@col=\dimen341
+\TX@target=\dimen342
+\TX@delta=\dimen343
+\TX@cols=\count475
+\TX@ftn=\toks74
+)
+(./Chapters/BWords.tex) (./Chapters/abbre.tex) (./mainRep.aux)
 \openout1 = `mainRep.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+0.
 
 (c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1975,69 +1985,69 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 ))
-\c@lstlisting=\count475
-Package hyperref Info: Link coloring ON on input line 19.
+\c@lstlisting=\count476
+Package hyperref Info: Link coloring ON on input line 20.
  (./mainRep.out)
 (./mainRep.out)
 \@outlinefile=\write10
 \openout10 = `mainRep.out'.
 
-File: Pic/HW.png Graphic file (type bmp)
-<Pic/HW.png>
+File: Pic/IUST.png Graphic file (type bmp)
+<Pic/IUST.png>
 \centeroffset=\skip170
 LaTeX Font Info:    Font shape `TU/IRTitr(0)/m/n' will be
-(Font)              scaled to size 23.99994pt on input line 22.
+(Font)              scaled to size 23.99994pt on input line 23.
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
-(Font)              scaled to size 15.0pt on input line 22.
+(Font)              scaled to size 15.0pt on input line 23.
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
-(Font)              scaled to size 15.0pt on input line 22.
+(Font)              scaled to size 15.0pt on input line 23.
 
-\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 22--22
+\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 23--23
 [][][][] 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
 
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
 
 
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 22
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 23
 .
 
 (c:/texlive/2023/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
-(Font)              scaled to size 12.5pt on input line 22.
+(Font)              scaled to size 12.5pt on input line 23.
 
-\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 22--22
+\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 23--23
 [][][][] 
  []
 
 
-\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 22--22
+\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 23--23
 [][][][] 
  []
 
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
-(Font)              scaled to size 11.25pt on input line 22.
-\hour=\count476
-\min=\count477
+(Font)              scaled to size 11.25pt on input line 23.
+\hour=\count477
+\min=\count478
 [1
 
 \openout5 = `mainRep.xdy'.
 
 ]
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
-(Font)              scaled to size 31.1pt on input line 25.
+(Font)              scaled to size 31.1pt on input line 26.
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
-(Font)              scaled to size 31.1pt on input line 25.
+(Font)              scaled to size 31.1pt on input line 26.
 
 Package fontspec Info: IRNazanin scale = 1.25.
 
@@ -2084,28 +2094,116 @@ pping=persian-tex-text;color=F5F5F5FF
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/IRNazanin(1)/b/n' will be
-(Font)              scaled to size 31.1pt on input line 25.
+(Font)              scaled to size 31.1pt on input line 26.
 LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
-(Font)              scaled to size 27.36815pt on input line 25.
+(Font)              scaled to size 27.36815pt on input line 26.
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
-(Font)              scaled to size 17.99998pt on input line 27.
+(Font)              scaled to size 17.99998pt on input line 28.
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
-(Font)              scaled to size 17.99998pt on input line 27.
+(Font)              scaled to size 17.99998pt on input line 28.
 LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/n' will be
-(Font)              scaled to size 11.00006pt on input line 29.
+(Font)              scaled to size 11.00006pt on input line 30.
  [1
 
 
 ]
 LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
-(Font)              scaled to size 11.00006pt on input line 190.
- [2]
+(Font)              scaled to size 11.00006pt on input line 191.
+ [2] (c:/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/02/21 1.10 listings language file
+)
+(c:/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 264.
+
+(./Codes/DeverloperCommands.txt
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/n' will be
+(Font)              scaled to size 8.80005pt on input line 1.
+)
+(c:/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/02/21 1.10 listings language file
+)
+(./Codes/LogPrinter.java
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1.
+) [3] (./Codes/state1.txt) (./Codes/state2.txt)
+[4] (./Codes/state3.txt) (./Codes/state4.txt)
+
+Package fontspec Info: IRNazanin scale = 1.25.
+
+LaTeX Info: Redefining \persianfont on input line 454.
+
+Package fontspec Info: Linux Libertine scale = 1.
+
+
+Package fontspec Info: Linux Libertine scale = 1.
+
+
+Package fontspec Info: Linux Libertine scale = 1.
+
+
+Package fontspec Info: Linux Libertine/B scale = 1.
+
+
+Package fontspec Info: Linux Libertine/B scale = 1.
+
+
+Package fontspec Info: Linux Libertine/I scale = 1.
+
+
+Package fontspec Info: Linux Libertine/I scale = 1.
+
+
+Package fontspec Info: Linux Libertine/BI scale = 1.
+
+
+Package fontspec Info: Font family 'LinuxLibertine(1)' created for font 'Linux
+(fontspec)             Libertine' with options [Ligatures=TeX,Scale=1].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1]"Linux
+(fontspec)             Libertine/OT:script=latn;language=dflt;mapping=tex-text;
+"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->s*[1]"Linux
+(fontspec)             Libertine/OT:script=latn;language=dflt;+smcp;mapping=tex
+-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1]"Linux
+(fontspec)             Libertine/B/OT:script=latn;language=dflt;mapping=tex-tex
+t;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"Linux
+(fontspec)             Libertine/B/OT:script=latn;language=dflt;+smcp;mapping=t
+ex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1]"Linux
+(fontspec)             Libertine/I/OT:script=latn;language=dflt;mapping=tex-tex
+t;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"Linux
+(fontspec)             Libertine/I/OT:script=latn;language=dflt;+smcp;mapping=t
+ex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1]"Linux
+(fontspec)             Libertine/BI/OT:script=latn;language=dflt;mapping=tex-te
+xt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Info: Redefining \latinfont on input line 454.
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(1)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 460.
+LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
+(Font)              scaled to size 11.25pt on input line 482.
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(1)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 482.
+ [5]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[3] (./mainRep.aux)
+[6] (./mainRep.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -2114,12 +2212,12 @@ Package rerunfilecheck Info: File `mainRep.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 39288 strings out of 474794
- 772224 string characters out of 5762089
- 1932842 words of memory out of 5000000
- 60502 multiletter control sequences out of 15000+600000
- 562012 words of font info for 117 fonts, out of 8000000 for 9000
+ 39741 strings out of 474794
+ 779750 string characters out of 5762089
+ 2207842 words of memory out of 5000000
+ 60916 multiletter control sequences out of 15000+600000
+ 562228 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 96i,9n,119p,2431b,1359s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 96i,13n,119p,2431b,1403s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on mainRep.pdf (4 pages).
+Output written on mainRep.pdf (7 pages).
