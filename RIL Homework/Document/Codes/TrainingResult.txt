@@ -1,0 +1,26 @@
+Mounted at /content/drive
+Found 3248 images belonging to 2 classes.
+Found 812 images belonging to 2 classes.
+Epoch 1/10
+101/101 [==============================] - 817s 8s/step - loss: 0.7241 - accuracy: 0.4994 - val_loss: 0.6931 - val_accuracy: 0.5025
+Epoch 2/10
+101/101 [==============================] - 20s 198ms/step - loss: 0.6932 - accuracy: 0.5037 - val_loss: 0.6931 - val_accuracy: 0.5025
+Epoch 3/10
+101/101 [==============================] - 20s 193ms/step - loss: 0.6932 - accuracy: 0.5044 - val_loss: 0.6931 - val_accuracy: 0.5025
+Epoch 4/10
+101/101 [==============================] - 20s 200ms/step - loss: 0.6931 - accuracy: 0.5056 - val_loss: 0.6931 - val_accuracy: 0.5075
+Epoch 5/10
+101/101 [==============================] - 21s 203ms/step - loss: 0.6932 - accuracy: 0.5047 - val_loss: 0.6931 - val_accuracy: 0.5063
+Epoch 6/10
+101/101 [==============================] - 20s 201ms/step - loss: 0.6931 - accuracy: 0.5050 - val_loss: 0.6931 - val_accuracy: 0.5038
+Epoch 7/10
+101/101 [==============================] - 21s 207ms/step - loss: 0.6932 - accuracy: 0.5034 - val_loss: 0.6930 - val_accuracy: 0.5088
+Epoch 8/10
+101/101 [==============================] - 21s 207ms/step - loss: 0.6931 - accuracy: 0.5059 - val_loss: 0.6931 - val_accuracy: 0.5075
+Epoch 9/10
+101/101 [==============================] - 22s 213ms/step - loss: 0.6931 - accuracy: 0.5053 - val_loss: 0.6932 - val_accuracy: 0.5025
+Epoch 10/10
+101/101 [==============================] - 21s 204ms/step - loss: 0.6932 - accuracy: 0.5053 - val_loss: 0.6931 - val_accuracy: 0.5025
+Found 500 images belonging to 2 classes.
+500/500 [==============================] - 124s 247ms/step
+250
