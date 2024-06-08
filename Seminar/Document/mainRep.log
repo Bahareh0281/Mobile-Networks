@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.27)  5 JUN 2024 19:32
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.27)  8 JUN 2024 20:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2045,9 +2045,9 @@ LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
 
 ] [2]
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
-(Font)              scaled to size 31.1pt on input line 32.
+(Font)              scaled to size 31.1pt on input line 30.
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
-(Font)              scaled to size 31.1pt on input line 32.
+(Font)              scaled to size 31.1pt on input line 30.
 
 Package fontspec Info: IRNazanin scale = 1.25.
 
@@ -2094,120 +2094,59 @@ pping=persian-tex-text;color=F5F5F5FF
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/IRNazanin(1)/b/n' will be
-(Font)              scaled to size 31.1pt on input line 32.
-LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
-(Font)              scaled to size 27.36815pt on input line 32.
+(Font)              scaled to size 31.1pt on input line 30.
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
 (Font)              scaled to size 21.59999pt on input line 34.
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/b/n' will be
 (Font)              scaled to size 21.59999pt on input line 34.
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
+(Font)              scaled to size 19.0081pt on input line 34.
 LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/n' will be
-(Font)              scaled to size 13.20007pt on input line 36.
+(Font)              scaled to size 13.20007pt on input line 37.
+File: Pic/Picture1.png Graphic file (type bmp)
+<Pic/Picture1.png>
+LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
+(Font)              scaled to size 13.68748pt on input line 42.
  [1
 
 
-]
-LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
-(Font)              scaled to size 13.20007pt on input line 145.
- [2] [3] [4]
-(c:/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/02/21 1.10 listings language file
-)
-(c:/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 330.
-
-(./Codes/DeverloperCommands.txt
-LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/n' will be
-(Font)              scaled to size 11.00006pt on input line 1.
-)
-(c:/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/02/21 1.10 listings language file
-)
-(./Codes/LogPrinter.java
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1.
- [5]) [6] (./Codes/state1.txt) (./Codes/state2.txt)
-[7] (./Codes/state3.txt) [8] (./Codes/state4.txt)
-LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
-(Font)              scaled to size 15.84007pt on input line 520.
- [9] [10] [11]
+] [2]
 
 Package fontspec Info: IRNazanin scale = 1.25.
 
-LaTeX Info: Redefining \persianfont on input line 717.
+File: Pic/Wireless_Telecommunications_Systems.png Graphic file (type bmp)
+<Pic/Wireless_Telecommunications_Systems.png>
+File: Pic/RAN_Generations.png Graphic file (type bmp)
+<Pic/RAN_Generations.png>
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/m/n' will be
+(Font)              scaled to size 12.04506pt on input line 184.
+ [3
 
-Package fontspec Info: Linux Libertine scale = 1.
+] [4]
+File: Pic/Baseband_Unit.png Graphic file (type bmp)
+<Pic/Baseband_Unit.png>
+ [5]
+File: Pic/Remote_Radio_Unit.png Graphic file (type bmp)
+<Pic/Remote_Radio_Unit.png>
+File: Pic/CPRI.png Graphic file (type bmp)
+<Pic/CPRI.png>
+ [6] [7] [8]
 
+Package fontspec Info: IRNazanin scale = 1.25.
 
-Package fontspec Info: Linux Libertine scale = 1.
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
+(Font)              scaled to size 27.36815pt on input line 269.
+File: Pic/vRAN.png Graphic file (type bmp)
+<Pic/vRAN.png>
+ [9
 
-
-Package fontspec Info: Linux Libertine scale = 1.
-
-
-Package fontspec Info: Linux Libertine/B scale = 1.
-
-
-Package fontspec Info: Linux Libertine/B scale = 1.
-
-
-Package fontspec Info: Linux Libertine/I scale = 1.
-
-
-Package fontspec Info: Linux Libertine/I scale = 1.
-
-
-Package fontspec Info: Linux Libertine/BI scale = 1.
-
-
-Package fontspec Info: Font family 'LinuxLibertine(1)' created for font 'Linux
-(fontspec)             Libertine' with options [Ligatures=TeX,Scale=1].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1]"Linux
-(fontspec)             Libertine/OT:script=latn;language=dflt;mapping=tex-text;
-"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->s*[1]"Linux
-(fontspec)             Libertine/OT:script=latn;language=dflt;+smcp;mapping=tex
--text;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1]"Linux
-(fontspec)             Libertine/B/OT:script=latn;language=dflt;mapping=tex-tex
-t;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"Linux
-(fontspec)             Libertine/B/OT:script=latn;language=dflt;+smcp;mapping=t
-ex-text;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1]"Linux
-(fontspec)             Libertine/I/OT:script=latn;language=dflt;mapping=tex-tex
-t;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"Linux
-(fontspec)             Libertine/I/OT:script=latn;language=dflt;+smcp;mapping=t
-ex-text;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1]"Linux
-(fontspec)             Libertine/BI/OT:script=latn;language=dflt;mapping=tex-te
-xt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-LaTeX Info: Redefining \latinfont on input line 717.
-LaTeX Font Info:    Font shape `TU/LinuxLibertine(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 723.
-LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
-(Font)              scaled to size 13.68748pt on input line 745.
-LaTeX Font Info:    Font shape `TU/LinuxLibertine(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 745.
- [12] [13]
+] [10]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[14] (./mainRep.aux)
+[11] (./mainRep.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -2216,12 +2155,12 @@ Package rerunfilecheck Info: File `mainRep.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 39768 strings out of 474794
- 780331 string characters out of 5762089
- 2188842 words of memory out of 5000000
- 60935 multiletter control sequences out of 15000+600000
- 565182 words of font info for 135 fonts, out of 8000000 for 9000
+ 39530 strings out of 474794
+ 777787 string characters out of 5762089
+ 1930842 words of memory out of 5000000
+ 60725 multiletter control sequences out of 15000+600000
+ 564973 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 96i,13n,119p,2431b,2040s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 96i,9n,119p,2431b,1359s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on mainRep.pdf (16 pages).
+Output written on mainRep.pdf (13 pages).
