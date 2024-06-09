@@ -607,6 +607,124 @@ Open RAN
 \end{figure}
 
 
+\section*{
+\lr{RAN}
+و
+\lr{OSI}
+هفت لایه
+}
+برای درک بهتر معماری
+ \lr{Open RAN}
+ ، می‌توانیم اجزای مختلف
+  \lr{RAN}
+   را با لایه‌های مدل
+    \lr{OSI (Open Systems Interconnection)}
+    تطبیق دهیم. مدل
+     \lr{OSI}
+      یک مدل هفت‌لایه‌ای برای استانداردسازی عملکرد شبکه‌ها است (شکل \ref{fig:OSI7Layer}).
+      RRU
+      در لایه فیزیکی (
+      Physical Layer
+      ) مدل
+       OSI
+        قرار می‌گیرد. وظایف اصلی
+         RRU
+         شامل:
+\begin{itemize}
+\item
+\textbf{ تبدیل
+  \lr{RF} 
+  (
+  \lr{RF Conversion}
+  )
+  :}
+تبدیل سیگنال‌های رادیویی به سیگنال‌های دیجیتال و برعکس (تبدیل آنالوگ به دیجیتال و دیجیتال به آنالوگ).
+\item 
+\textbf{تبدیل‌های
+ \lr{RF}
+  (
+  \lr{RF Transformations}
+  ): }
+وظایفی مانند تقویت سیگنال، فیلترگذاری و تبدیل فرکانس‌ها نیز در این لایه انجام می‌شود.
+\item 
+\textbf{مدولاسیون و دمدولاسیون
+  (
+  \lr{Modulation and Demodulation}
+  ):}
+تغییر سیگنال‌ها برای انتقال داده‌ها. 
+\end{itemize}
+     \begin{figure}[ht]
+     	\centering
+     	\includegraphics[height=.3\linewidth]{Pic/OSI7Layer}
+     	\caption{هفت لایه
+     		\lr{OSI}
+     	}
+     	\label{fig:OSI7Layer}
+     \end{figure}
+     
+     
+      \lr{BBU}
+        مسئول اجرای پروتکل‌های مختلف و وظایف پیشرفته‌تر در لایه‌های بالاتر از لایه فیزیکی است. پروتکل‌ها و وظایف BBU شامل:
+\begin{itemize}
+\item
+\textbf{\lr{RRC (Radio Resource Control)}
+:}
+این پروتکل در لایه شبکه (
+\lr{Network Layer}
+) قرار می‌گیرد و مسئولیت مدیریت ارتباطات، پخش و ارسال پیام‌ها، مدیریت ارتباط و تحرک (
+\lr{mobility}
+) و گزارش‌دهی را بر عهده دارد.
+\item
+ \textbf{\lr{PDCP (Packet Data Convergence Protocol)}
+ :}
+ این پروتکل در لایه شبکه (
+ \lr{Network Layer}
+ ) قرار دارد و وظایفی مانند مدیریت
+  \lr{header}
+   های
+     \lr{IP}
+     ، امنیت و عملکردهای دیگری مانند رمزنگاری (
+     \lr{ciphering}
+     ) و حفاظت یکپارچگی (
+     \lr{integrity protection}
+     ) را انجام می‌دهد.
+\item
+\textbf{\lr{RLC (Radio Link Control)}
+:}
+این پروتکل در لایه پیوند داده (
+\lr{Data Link Layer}
+) قرار می‌گیرد و مسئولیت‌هایی مانند تکه‌تکه کردن (
+\lr{segmentation}
+) و بازترکیب  (
+\lr{reassembly}
+) داده‌ها، کنترل جریان و تصحیح خطا را بر عهده دارد.
+\item
+\textbf{\lr{MAC (Medium Access Control)}
+:}
+ این لایه نیز در لایه پیوند داده (
+ \lr{Data Link Layer}
+ ) قرار می‌گیرد و وظایفی مانند دسترسی به رسانه، تجمع حامل (
+ \lr{carrier aggregation}
+ )، نگاشت کانال‌ها،
+  \lr{HARQ (Hybrid Automatic Repeat Request)}
+   و زمان‌بندی بسته‌ها را بر عهده دارد.
+\item
+\textbf{\lr{PHY (Physical Layer)}
+:}
+این لایه شامل تمامی وظایف اصلی لایه فیزیکی مانند کدگذاری و دکدگذاری (
+\lr{Coding and Decoding}
+)، مدولاسیون و دمدولاسیون (
+ \lr{Modulation and Demodulation}
+ )، مدیریت منابع و اجرای
+  \lr{IFFT/FFT} 
+  (تبدیل فوریه و تبدیل فوریه معکوس) است.
+\end{itemize}
+
+      
+      
+
+
+
 
 \section* {مراجع}
 \begin{itemize}
