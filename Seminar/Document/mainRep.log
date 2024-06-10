@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.27)  11 JUN 2024 00:34
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.27)  11 JUN 2024 01:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1897,7 +1897,14 @@ Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
 \TX@cols=\count475
 \TX@ftn=\toks74
 )
-(./Chapters/BWords.tex) (./Chapters/abbre.tex) (./mainRep.aux)
+(./Chapters/BWords.tex) (./Chapters/abbre.tex) (./mainRep.aux
+
+LaTeX Warning: Label `fig:Fronthaul_Midhaul_Backhaul' multiply defined.
+
+
+LaTeX Warning: Label `fig:Fronthaul_Midhaul_Backhaul' multiply defined.
+
+)
 \openout1 = `mainRep.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -1911,8 +1918,7 @@ LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
 3.
-
-(c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
+ (c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 23.
@@ -2199,27 +2205,58 @@ File: Pic/Logical_RAN_Disaggregation.png Graphic file (type bmp)
 ] [30]
 File: Pic/Fronthaul_Midhaul_Backhaul.png Graphic file (type bmp)
 <Pic/Fronthaul_Midhaul_Backhaul.png>
+File: Pic/DUI.png Graphic file (type bmp)
+<Pic/DUI.png>
 
+Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+[31] [32] [33]
+File: Pic/RAN.png Graphic file (type bmp)
+<Pic/RAN.png>
+
+Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no ̊ (U+030A) in font IRNazanin Bold/OT:language=df
+lt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no ̊ (U+030A) in font IRNazanin Bold/OT:language=df
+lt;script=arab;mapping=persian-tex-text;!
+[34] [35] [36]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[31] [32] (./mainRep.aux)
+[37] (./mainRep.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `mainRep.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 39771 strings out of 474794
- 784613 string characters out of 5762089
+ 39816 strings out of 474794
+ 785394 string characters out of 5762089
  1931842 words of memory out of 5000000
- 60955 multiletter control sequences out of 15000+600000
+ 60998 multiletter control sequences out of 15000+600000
  564981 words of font info for 130 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  96i,9n,119p,2431b,1359s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on mainRep.pdf (34 pages).
+Output written on mainRep.pdf (39 pages).
