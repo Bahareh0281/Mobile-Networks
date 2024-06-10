@@ -928,7 +928,7 @@ RAN
   	\lr{CU}
   	) و واحد توزیع (
   	\lr{DU}
-  	) امکان می‌دهد. این انعطاف‌پذیری به طراحان شبکه اجازه می‌دهد تا شبکه را بر اساس عوامل مختلفی شبکه را با سناریوهای استقرار متنوع سازگار سازد
+  	) امکان می‌دهد. این انعطاف‌پذیری به طراحان شبکه اجازه می‌دهد تا شبکه را بر اساس عوامل مختلفی شبکه را با سناریوهای استقرار متنوع سازگار سازد.
   \end{enumerate}
 
 \begin{figure}[ht]
@@ -994,8 +994,7 @@ Vendor
 	      \lr{Low MAC}
 	      و    
 	\lr{High PHYSICAL}
-	
-	 است این لایه‌ها وظایف بخش‌بندی داده، کنترل خطا و انتقال لایه فیزیکی را انجام می‌دهند.
+	 است. این لایه‌ها وظایف بخش‌بندی داده، کنترل خطا و انتقال لایه فیزیکی را انجام می‌دهند.
 	
 	\item 
 	\textbf{واحد رادیویی (
@@ -1026,7 +1025,7 @@ Vendor
  	\begin{itemize}
  		\item \textbf{نیاز:}
 ارائه نرخ داده بالا برای برنامه‌هایی مانند استریم ویدیوی با وضوح بالا، بازی‌های ابری (
-Cloud Gaming
+\lr{Cloud Gaming}
 ) و دانلود سریع فایل‌ها.
  		\item \textbf{مشخصات:}
  		\begin{itemize}
@@ -1085,7 +1084,9 @@ Cloud Gaming
  	
  	
 \chapter*{تقسیم بندی درون CU}
-طبق تصویر زیر CUرا می‌توان به دو زیربخش دیگر تقسیم کرد:
+طبق شکل \ref{fig:Logical_RAN_Disaggregation}
+ \lr{CU}
+ را می‌توان به دو زیربخش دیگر تقسیم کرد:
 \begin{itemize}
 	\item 
 	\textbf{صفحه‌ی کنترل (
@@ -1098,6 +1099,79 @@ Cloud Gaming
 	): }
 	پردازش داده‌های کاربر و تخصیص منابع را مدیریت می‌کند.
 \end{itemize}
+\section*{چالش تاثیر فاصله بر تاخیر: }
+فاصله فیزیکی بین کاربر و
+\lr{BBU}
+(که اکنون به
+\lr{CU}
+و
+\lr{DU}
+تقسیم شده است) باعث ایجاد تأخیر می‌شود. این تأخیر می‌تواند برای برنامه‌هایی که نیازمند ارتباطات فوق قابل اعتماد با تأخیر کم (
+\lr{URLLC}
+) هستند، چالش‌برانگیز باشد.
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=.6\linewidth]{Pic/Logical_RAN_Disaggregation}
+	\caption{
+		تفکیک
+		\lr{Logical RAN}
+	}
+	\label{fig:Logical_RAN_Disaggregation}
+\end{figure}
+
+\section*{مقابله با چالش‌های تأخیر در
+	  \lr{URLLC}
+	   }
+برای دستیابی به
+ \lr{URLLC}
+ با وجودِ احتمال دور بودنِ شبکه‌ی مرکزی، معماری توزیع‌شده به روش زیر کمک می‌کند:
+ \subsection*{نزدیک کردن پردازش به کاربران:}
+با قرار دادن واحد رادیویی (
+\lr{RU}
+) با قابلیت‌های
+ \lr{Low Physical Layer}
+   و
+    \lr{RF}
+     نزدیک به کاربر، پردازش اولیه‌ی سیگنال نزدیک‌تر به منبع رخ می‌دهد. این کار باعث کاهش مسافتی می‌شود که نور برای پردازش اولیه نیاز دارد و در نتیجه تأخیر را به حداقل می‌رساند.
+     
+     
+ در شبکه
+  \lr{5G}
+   سه رابط وجود دارد (شکل \ref{fig:Fronthaul_Midhaul_Backhaul}):
+   \begin{itemize}
+   	\item \textbf{\lr{Fronthaul}:}
+   	  بین واحد توزیع‌شده (
+   	  \lr{DU}
+   	  ) و واحد رادیویی (
+   	  \lr{RRU}
+   	  )
+   	\item \textbf{\lr{Midhaul}:}
+   	بین واحد مرکزی (
+   	\lr{CU}
+   	) و واحد توزیع‌شده (
+   	\lr{DU}
+   	)
+   	\item \textbf{\lr{Backhaul}:}
+   	بین واحد مرکزی (
+   	\lr{CU}
+   	) و هسته‌ی شبکه
+   \end{itemize}
+     
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=.6\linewidth]{Pic/Fronthaul_Midhaul_Backhaul}
+	\caption{ روابط
+		\lr{Fronthaul}    		
+		،
+		\lr{Midhaul}
+		و 
+		\lr{Backhaul}
+		در شبکه
+		\lr{5G}
+	}
+	\label{fig:Fronthaul_Midhaul_Backhaul}
+\end{figure}
+
 \section* {مراجع}
 \begin{itemize}
 	\item 
