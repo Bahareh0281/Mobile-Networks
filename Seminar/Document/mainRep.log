@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.27)  11 JUN 2024 18:41
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.27)  11 JUN 2024 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2216,21 +2216,20 @@ File: Pic/RAN.png Graphic file (type bmp)
 <Pic/RAN.png>
  [36] [37] [38] [39] [40] [41]
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 1355.
+(Font)              scaled to size 10.0pt on input line 1356.
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 1355.
-
+(Font)              scaled to size 7.5pt on input line 1356.
+ [42]
 Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
-[42]
 File: Pic/ORAN_Challenges.png Graphic file (type bmp)
 <Pic/ORAN_Challenges.png>
 
-Overfull \hbox (18.5866pt too wide) in paragraph at lines 1372--1380
-[][]\TU/IRNazanin(0)/m/n/12 همانطور که اشاره شد، پیاده‌سازی شبکه‌های []\TU/Linu
-xLibertine(0)/m/n/12 OPEN RAN[] \TU/IRNazanin(0)/m/n/12 نیز با چالش‌هایی همراه 
-است. مسائل مربوط به تعامل چند تامین‌کننده ( []\TU/LinuxLibertine(0)/m/n/12 mult
-i vendor interoperability[][]
+Overfull \hbox (0.5866pt too wide) in paragraph at lines 1373--1381
+[]\TU/IRNazanin(0)/m/n/12 همانطور که اشاره شد، پیاده‌سازی شبکه‌های []\TU/LinuxL
+ibertine(0)/m/n/12 OPEN RAN[] \TU/IRNazanin(0)/m/n/12 نیز با چالش‌هایی همراه اس
+ت. مسائل مربوط به تعامل چند تامین‌کننده ( []\TU/LinuxLibertine(0)/m/n/12 multi 
+vendor interoperability[][]
  []
 
 [43] [44]
@@ -2238,7 +2237,7 @@ i vendor interoperability[][]
 Package fontspec Info: IRNazanin scale = 1.25.
 
 LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
-(Font)              scaled to size 27.36815pt on input line 1394.
+(Font)              scaled to size 27.36815pt on input line 1395.
  [45
 
 ] [46]
