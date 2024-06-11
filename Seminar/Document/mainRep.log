@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.27)  11 JUN 2024 17:42
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.27)  11 JUN 2024 18:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2140,30 +2140,31 @@ File: Pic/CPRI.png Graphic file (type bmp)
 
 Package fontspec Info: IRNazanin scale = 1.25.
 
-File: Pic/vRAN.png Graphic file (type bmp)
-<Pic/vRAN.png>
  [9
 
-] [10] [11]
+]
+File: Pic/vRAN.png Graphic file (type bmp)
+<Pic/vRAN.png>
+ [10] [11] [12]
 
 Package fontspec Info: IRNazanin scale = 1.25.
 
- [12
+ [13
 
-] [13]
+] [14]
 LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
-(Font)              scaled to size 13.20007pt on input line 475.
- [14]
+(Font)              scaled to size 13.20007pt on input line 505.
+ [15]
 File: Pic/Open_RAN_Vision.png Graphic file (type bmp)
 <Pic/Open_RAN_Vision.png>
- [15]
-File: Pic/RAN_Area.png Graphic file (type bmp)
-<Pic/RAN_Area.png>
 
 [16]
+File: Pic/RAN_Area.png Graphic file (type bmp)
+<Pic/RAN_Area.png>
+ [17]
 File: Pic/OSI7Layer.png Graphic file (type bmp)
 <Pic/OSI7Layer.png>
- [17] [18]
+ [18] [19]
 
 Package fontspec Info: IRNazanin scale = 1.25.
 
@@ -2172,139 +2173,81 @@ Missing character: There is no ‌ (U+200C) in font Linux Libertine/OT:script=la
 n;language=dflt;mapping=tex-text;!
 File: Pic/RU_CU_DU_Splits.png Graphic file (type bmp)
 <Pic/RU_CU_DU_Splits.png>
-[19
+[20
 
 ]
 LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
-(Font)              scaled to size 15.84007pt on input line 794.
+(Font)              scaled to size 15.84007pt on input line 824.
 File: Pic/4G_5G.png Graphic file (type bmp)
 <Pic/4G_5G.png>
- [20]
+ [21]
 File: Pic/BTS_Evaluation.png Graphic file (type bmp)
 <Pic/BTS_Evaluation.png>
- [21] [22] [23]
+ [22] [23] [24]
 File: Pic/RU_CU_DU.png Graphic file (type bmp)
 <Pic/RU_CU_DU.png>
- [24] [25]
+ [25] [26]
 File: Pic/Functional_Split_Options_for_5G.png Graphic file (type bmp)
 <Pic/Functional_Split_Options_for_5G.png>
- [26]
+ [27]
 
 Package fontspec Info: IRNazanin scale = 1.25.
 
 File: Pic/5G_3Scenarios.png Graphic file (type bmp)
 <Pic/5G_3Scenarios.png>
- [27
+ [28
 
-] [28] [29]
+] [29] [30]
 
 Package fontspec Info: IRNazanin scale = 1.25.
 
 File: Pic/Logical_RAN_Disaggregation.png Graphic file (type bmp)
 <Pic/Logical_RAN_Disaggregation.png>
- [30
+ [31
 
-] [31]
+] [32]
 File: Pic/Fronthaul_Midhaul_Backhaul.png Graphic file (type bmp)
 <Pic/Fronthaul_Midhaul_Backhaul.png>
 File: Pic/DUI.png Graphic file (type bmp)
 <Pic/DUI.png>
-
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-[32] [33] [34]
+ [33] [34]
+[35]
 File: Pic/RAN.png Graphic file (type bmp)
 <Pic/RAN.png>
+ [36] [37] [38] [39] [40] [41]
+LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 1355.
+LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
+(Font)              scaled to size 7.5pt on input line 1355.
 
 Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin Bold/OT:language=df
-lt;script=arab;mapping=persian-tex-text;!
-[35] [36] [37]
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-[38]
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-[39]
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-[40]
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 1325.
-LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 1325.
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
-ript=arab;mapping=persian-tex-text;!
-[41]
+[42]
+File: Pic/ORAN_Challenges.png Graphic file (type bmp)
+<Pic/ORAN_Challenges.png>
+
+Overfull \hbox (18.5866pt too wide) in paragraph at lines 1372--1380
+[][]\TU/IRNazanin(0)/m/n/12 همانطور که اشاره شد، پیاده‌سازی شبکه‌های []\TU/Linu
+xLibertine(0)/m/n/12 OPEN RAN[] \TU/IRNazanin(0)/m/n/12 نیز با چالش‌هایی همراه 
+است. مسائل مربوط به تعامل چند تامین‌کننده ( []\TU/LinuxLibertine(0)/m/n/12 mult
+i vendor interoperability[][]
+ []
+
+[43] [44]
+
+Package fontspec Info: IRNazanin scale = 1.25.
+
+LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
+(Font)              scaled to size 27.36815pt on input line 1394.
+ [45
+
+] [46]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[42] (./mainRep.aux)
+[47] (./mainRep.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -2317,12 +2260,12 @@ Package rerunfilecheck Info: File `mainRep.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 39855 strings out of 474794
- 786357 string characters out of 5762089
- 1930842 words of memory out of 5000000
- 61034 multiletter control sequences out of 15000+600000
- 564997 words of font info for 132 fonts, out of 8000000 for 9000
+ 39877 strings out of 474794
+ 787192 string characters out of 5762089
+ 1931842 words of memory out of 5000000
+ 61054 multiletter control sequences out of 15000+600000
+ 565005 words of font info for 133 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  96i,9n,119p,2431b,1359s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on mainRep.pdf (44 pages).
+Output written on mainRep.pdf (49 pages).
