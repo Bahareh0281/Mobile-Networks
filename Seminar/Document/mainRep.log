@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.27)  12 JUN 2024 17:58
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.27)  12 JUN 2024 18:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2157,14 +2157,13 @@ LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
  [15]
 File: Pic/Open_RAN_Vision.png Graphic file (type bmp)
 <Pic/Open_RAN_Vision.png>
-
-[16]
 File: Pic/RAN_Area.png Graphic file (type bmp)
 <Pic/RAN_Area.png>
- [17]
+
+[16]
 File: Pic/OSI7Layer.png Graphic file (type bmp)
 <Pic/OSI7Layer.png>
- [18] [19]
+ [17] [18] [19]
 
 Package fontspec Info: IRNazanin scale = 1.25.
 
@@ -2177,7 +2176,7 @@ File: Pic/RU_CU_DU_Splits.png Graphic file (type bmp)
 
 ]
 LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
-(Font)              scaled to size 15.84007pt on input line 828.
+(Font)              scaled to size 15.84007pt on input line 832.
 File: Pic/4G_5G.png Graphic file (type bmp)
 <Pic/4G_5G.png>
  [21]
@@ -2216,16 +2215,16 @@ File: Pic/RAN.png Graphic file (type bmp)
 <Pic/RAN.png>
  [36] [37] [38] [39] [40] [41]
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 1360.
+(Font)              scaled to size 10.0pt on input line 1376.
 LaTeX Font Info:    Font shape `TU/IRNazanin(0)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 1360.
+(Font)              scaled to size 7.5pt on input line 1376.
  [42]
 Missing character: There is no ̊ (U+030A) in font IRNazanin/OT:language=dflt;sc
 ript=arab;mapping=persian-tex-text;!
 File: Pic/ORAN_Challenges.png Graphic file (type bmp)
 <Pic/ORAN_Challenges.png>
 
-Overfull \hbox (0.5866pt too wide) in paragraph at lines 1377--1385
+Overfull \hbox (0.5866pt too wide) in paragraph at lines 1393--1401
 []\TU/IRNazanin(0)/m/n/12 همانطور که اشاره شد، پیاده‌سازی شبکه‌های []\TU/LinuxL
 ibertine(0)/m/n/12 OPEN RAN[] \TU/IRNazanin(0)/m/n/12 نیز با چالش‌هایی همراه اس
 ت. مسائل مربوط به تعامل چند تامین‌کننده ( []\TU/LinuxLibertine(0)/m/n/12 multi 
@@ -2237,7 +2236,7 @@ vendor interoperability[][]
 Package fontspec Info: IRNazanin scale = 1.25.
 
 LaTeX Font Info:    Font shape `TU/LinuxLibertine(0)/b/n' will be
-(Font)              scaled to size 27.36815pt on input line 1399.
+(Font)              scaled to size 27.36815pt on input line 1415.
  [45
 
 ] [46]
