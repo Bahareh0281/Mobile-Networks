@@ -18,6 +18,8 @@ This folder contains materials and code related to the Radio Interface Layer (RI
 - Code snippets for obtaining RIL data related to turning the internet on and off on Android devices are provided.
 - Detailed explanations of the possible results and their implications are included.
 
+*Note that the report is in Farsi.*
+
 ## Seminar
 
 This folder contains a detailed seminar in Farsi about ORAN in 5G. The seminar covers the following topics:
