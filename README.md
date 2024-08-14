@@ -1,5 +1,5 @@
 # Repository Contents
-## RIL HW
+## RIL
 
 This folder contains materials and code related to the Radio Interface Layer (RIL) investigation. The content covers several key aspects:
 
